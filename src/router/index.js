@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import SelfAction from '../components/SelfAction.vue'
+import Fu from '../page/toData/Fu.vue'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,10 @@ const routes = [
   {
     path: '/selfAction',
     component: SelfAction
+  },
+  {
+    path: '/fu',
+    component: Fu
   }
 ]
 
